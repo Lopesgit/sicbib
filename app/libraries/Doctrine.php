@@ -30,7 +30,7 @@ class Doctrine
         $models_namespace = 'Entities';
         $models_path = APPPATH . 'models';
         $proxies_dir = APPPATH . 'models/Proxies';
-        $metadata_paths = array(APPPATH . 'models');
+        $metadata_paths = array(APPPATH . 'models/Entities');
 
         // Set $dev_mode to TRUE to disable caching while you develop
         $config = Setup::createAnnotationMetadataConfiguration($metadata_paths, $dev_mode = true, $proxies_dir);
