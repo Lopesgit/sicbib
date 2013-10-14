@@ -609,7 +609,7 @@ ul.password{
 .div-right {
     float: left;
     position: relative;
-    margin: 0px 0 0 15px;
+    margin: -25px auto;
 }
 
 #element_2{

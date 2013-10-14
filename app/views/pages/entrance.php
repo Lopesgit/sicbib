@@ -1,8 +1,11 @@
 <?php 
     echo link_tag('assets/css/entrance.css');
     echo link_tag('assets/css/buttons.css');
+    echo link_tag('assets/css/showLoading.css');
  ?>
+<script type="text/javascript" charset="utf-8" src="<?php echo base_url().'libraries/jquery.js'; ?>"></script>
 <script type="text/javascript" charset="utf-8" src="<?php echo base_url().'assets/js/entrance.js'?>"></script>
+<script type="text/javascript" charset="utf-8" src="<?php echo base_url().'assets/js/jquery.showLoading.js'; ?>"></script>
 <div class="div_login">
 	<div class="resposta resposta-erro">
 		<b id="msg"></b>

@@ -1,5 +1,8 @@
-<?php echo link_tag('assets/css/menu_inicial.css'); ?>
+<?php echo link_tag('assets/css/menu_inicial.css'); 
+      echo link_tag('assets/css/showLoading.css'); ?>
+<script type="text/javascript" charset="utf-8" src="<?php echo base_url().'libraries/jquery.js'; ?>"></script>
 <script type="text/javascript" charset="utf-8" src="<?php echo base_url().'assets/js/menu_inicial.js';?>"></script>
+<script type="text/javascript" charset="utf-8" src="<?php echo base_url().'assets/js/jquery.showLoading.js'; ?>"></script>
 <?php
 	session_start();
 

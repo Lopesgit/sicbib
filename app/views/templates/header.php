@@ -3,12 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Sistema de Controle de Biblioteca</title>
-    <?php echo link_tag('assets/css/header.css'); 
-        echo link_tag('assets/css/showLoading.css'); ?>
-    <script type="text/javascript" charset="utf-8" src="<?php echo base_url().'libraries/jquery.js'; ?>"></script>
-    <script type="text/javascript" charset="utf-8" src="<?php echo base_url().'assets/js/jquery.showLoading.js'; ?>"></script>
-    <script type="text/javascript" charset="utf-8" src="<?php echo base_url().'libraries/jquery.dataTables.js'; ?>"></script>
-</head>
+    <?php echo link_tag('assets/css/header.css');  ?>    
+   </head>
 <body>
 	<div class="header header-logged-out">
   		<div class="hcontainer">
