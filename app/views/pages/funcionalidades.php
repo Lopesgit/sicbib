@@ -6,8 +6,8 @@
  */
     echo link_tag('assets/css/funcionalidades.css');
     echo link_tag('assets/css/buttons.css');
-    echo link_tag('assets/css/demo_page.css');
-    echo link_tag('assets/css/demo_table.css');
+    echo link_tag('assets/css/datatable_page.css');
+    echo link_tag('assets/css/datatable_table.css');
     echo link_tag('assets/css/jquery.tooltip.css');
 ?>
 <script type="text/javascript" charset="utf-8" src="<?php echo base_url().'libraries/jquery.js'; ?>"></script>
